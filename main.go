@@ -74,7 +74,7 @@ func main() {
 		}
 	}
 
-	router.Run(":8083") // listen and serve on 0.0.0.0:8083
+	router.Run(":8083") // listen and serve on 0.0.0.0:8082
 }
 
 func getHome(c *gin.Context) {
